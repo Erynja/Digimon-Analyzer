@@ -1,0 +1,18 @@
+{
+  "name": "digimon-analyzer",
+  "version": "1.0.0",
+  "description": "Have you always wanted Izzy's Laptop? \r If your answer is yes, we both know we don't want it for it's durability - given it not only survived transport into the digi world but on top of all was fully functionable - no matter what!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
