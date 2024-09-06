@@ -1,6 +1,6 @@
 @font-face {
     font-family: "PixelDigivolve";
-    src: local("PixelDigivolve"), url("fonts/digivolve/PixelDigivolve.ttf") format("truetype"), url("fonts/digivolve/PixelDigivolveItalic.ttf") format("truetype");
+    src: local("PixelDigivolve"), url("/fonts/digivolve/PixelDigivolve.ttf") format("truetype"), url("/fonts/digivolve/PixelDigivolveItalic.ttf") format("truetype");
 }
 
 html, body {
