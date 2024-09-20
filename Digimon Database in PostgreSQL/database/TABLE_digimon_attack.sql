@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS digimon.attacks;
 
 CREATE TABLE IF NOT EXISTS digimon.attacks
 (
-    attack_id character varying(2) COLLATE pg_catalog."default",
+    attack_id character varying(2) COLLATE PRIMARY KEY pg_catalog."default",
     attack_name character varying(30) COLLATE pg_catalog."default",
 )
 

@@ -46,7 +46,7 @@ $(document).ready(function() {
   // Show Digimon animation and info box
   function showDigimon(name, level, type, attack) {
       // Assuming you have images named like 'Greymon.jpg' in the /images/ directory
-      const imageUrl = `/Digimon Database in PostgreSQL/images/${name}.jpg`;
+      const imageUrl = `/images/${name}.jpg`;
       console.log('Image URL:', imageUrl); // Debug the URL
       
       digimonDraw.empty().append(`<section class="digiImage" style="background-image: url('${imageUrl}');"></section>`);

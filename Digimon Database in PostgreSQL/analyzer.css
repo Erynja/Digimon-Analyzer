@@ -4,12 +4,12 @@
 }
 
 html, body {
-    height: 100%;
+    height: 90%;
     margin: 0;
     color: #ffffff;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 1.0;
 }
 
 body {
@@ -18,8 +18,8 @@ body {
 
 video {
     object-fit: cover;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -32,12 +32,13 @@ video {
 }
 
 .header_title {
+    position: inherit;
     width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px; /* Space below the search bar */
+    margin-top: 30px; /* Space below the search bar */
 }
 
 .header_title h1, .header_title h2 {
@@ -50,8 +51,8 @@ video {
 }
 
 .header_title h1 {
-    font-size: 4vw; /* Adjust size for visibility */
-    margin-top: 20px; /* Space between search bar and heading */
+    font-size: 3vw; /* Adjust size for visibility */
+    margin-top: auto; /* Space between search bar and heading */
 }
 
 .header_title h2 {
@@ -61,7 +62,8 @@ video {
 
 #digimonForm {
     position: relative;
-    margin: 20px auto;
+    margin: 30px auto;
+    top: auto;
     text-align: center;
 }
 
@@ -100,7 +102,7 @@ video {
     letter-spacing: 0.3vw;
     font-style: italic;
     font-size: 5vw;
-    margin: 10px 0;
+    margin: 30px 0;
     padding: 10px;
     border: 2px solid #ffffff;
     border-radius: 10px;
@@ -119,36 +121,52 @@ video {
     display: none; /* Hidden initially */
         position: fixed;
         height: 100vh;
-        transform: translate(0%, 40%);
+        transform: translate(10%, -5%);
         display: flex;
         align-items: center;
         mix-blend-mode: screen;
         width: 920px;
         height: 690px;
-        margin: 0 auto;
+        margin: 3 auto;
     
 }
 
 .infoBox {
     display: none; /* Hidden initially */
     position: fixed;
-    right: 20px;
+    right: 5%;
     top: 30%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
     color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1px;
+    border-radius: 1px;
     width: 450px;
     text-align: center;
 }
 
 .infoBox h3 {
-    margin: 90px 20px;
+    margin: 20px 20px;
     font-size: 5.5em;
     font-family: PixelDigivolve, sans-serif;
+    color: rgb(0, 223, 41);
 }
 
 .infoBox p {
-    margin: 30px 0;
+    margin: 10px 0;
     font-size: 1.5vw;
 }
+
+#backToHome {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    display: flex;  
+}
+
+#results {
+    position: relative;
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }

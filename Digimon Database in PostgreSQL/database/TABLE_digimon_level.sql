@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS digimon.level;
 
 CREATE TABLE IF NOT EXISTS digimon.level
 (
-    level_id character varying(2) COLLATE pg_catalog."default" NOT NULL,
+    level_id character varying(2) COLLATE pg_catalog."default" PRIMARY KEY NOT NULL,
     level_name character varying(30) COLLATE pg_catalog."default" NOT NULL
 )
 
