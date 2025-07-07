@@ -1,6 +1,6 @@
 @font-face {
     font-family: "PixelDigivolve";
-    src: local("PixelDigivolve"), url("/fonts/digivolve/PixelDigivolve.ttf") format("truetype"), url("/fonts/digivolve/PixelDigivolveItalic.ttf") format("truetype");
+    src: local("PixelDigivolve"), url("/fonts/PixelDigivolve.otf") format("opentype");
 }
 
 html, body {
@@ -121,10 +121,10 @@ video {
     display: none; /* Hidden initially */
         position: fixed;
         height: 100vh;
-        transform: translate(10%, -5%);
+        transform: translate(10%, -3%);
         display: flex;
         align-items: center;
-        mix-blend-mode: screen;
+        mix-blend-mode: lighten;
         width: 920px;
         height: 690px;
         margin: 3 auto;
@@ -145,7 +145,7 @@ video {
 }
 
 .infoBox h3 {
-    margin: 20px 20px;
+    margin: 20px;
     font-size: 5.5em;
     font-family: PixelDigivolve, sans-serif;
     color: rgb(0, 223, 41);
@@ -153,7 +153,8 @@ video {
 
 .infoBox p {
     margin: 10px 0;
-    font-size: 1.5vw;
+    font-family: PixelDigivolve, sans-serif;
+    font-size: 2.5vw;
 }
 
 #backToHome {
