@@ -10,6 +10,12 @@
         "name": "Agumon",
         "digiType": "Reptile Digimon",
         "attack": "Kleine Flamme"
+      },
+      {
+        "name": "Garurumon",
+        "digiType": "Wolf Digimon",
+        "attack": "Metal Flame"
+       
       }
     ]
   }

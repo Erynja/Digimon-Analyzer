@@ -1,0 +1,98 @@
+# Node Moduls
+
+/node_modules
+
+/libraries
+
+# Fonts
+/fonts
+
+# Images
+
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# JPEG 2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
+
+# JPEG XR
+*.jxr
+*.hdp
+*.wdp
+
+# Graphics Interchange Format
+*.gif
+
+# RAW
+*.raw
+
+# Web P
+*.webp
+
+# Portable Network Graphics
+*.png
+
+# Animated Portable Network Graphics
+*.apng
+
+# Multiple-image Network Graphics
+*.mng
+
+# Tagged Image File Format
+*.tiff
+*.tif
+
+# Scalable Vector Graphics
+*.svg
+*.svgz
+
+# Portable Document Format
+*.pdf
+
+# X BitMap
+*.xbm
+
+# BMP
+*.bmp
+*.dib
+
+# ICO
+*.ico
+
+# 3D Images
+*.3dm
+*.max
+/js1.html
+/bootstrap-5.3.3-dist
+/fonts
+/gitproject
+Project1/Project Charta/~$Idea1_Digimon.pptx
+Project1/Project Charta/Idea1_Digimon.pptx
+Project1/Project Charta/Idea2_WritingWebApp.pptx
+server.js
+Digimon Database in PostgreSQL/.gitignore
+Digimon Database in PostgreSQL/action.js
+Digimon Database in PostgreSQL/analyzer.css
+Digimon Database in PostgreSQL/analyzer.html
+Digimon Database in PostgreSQL/digimon.json
+Digimon Database in PostgreSQL/index.html
+Digimon Database in PostgreSQL/package-lock.json
+Digimon Database in PostgreSQL/package.json
+Digimon Database in PostgreSQL/server.js
+Digimon Database in PostgreSQL/fonts/digivolve/info.txt
+Digimon Database in PostgreSQL/fonts/digivolve/PixelDigivolve.ttf
+Digimon Database in PostgreSQL/fonts/digivolve/PixelDigivolveItalic.ttf
+Digimon Database in PostgreSQL/fonts/digivolve/misc/Font License.txt
+Digimon Database in PostgreSQL/images/vecteezy_animated-grid-background-background-animation_23162575.mp4
+Digimon Database in PostgreSQL/libraries/jquery-3.7.1.min.js
+images/vecteezy_animated-grid-background-background-animation_23162575.mp4
